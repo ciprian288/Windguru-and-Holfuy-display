@@ -12,8 +12,6 @@ import requests
 # local imports
 import config
 
-url_holfuy = "http://api.holfuy.com/live/?s={s}&pw={pw}&&m=JSON&tu=C&su=knots&batt"
-
 def exit_gracefully(signum, frame):
     sys.exit(0)
 
@@ -106,6 +104,7 @@ class MyDisplay:
                 self.wind = requests.get(url, headers = headers).json()
             
             else:
+                url_holfuy = "http://api.holfuy.com/live/?s={s}&pw={pw}&&m=JSON&tu=C&su=knots&batt"
                 querystring_h = {
                 "s": config.ID_STATION,
                 "pw": config.HOLFUY_API_KEY
