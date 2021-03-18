@@ -10,9 +10,11 @@ pip3 install pygame
 # Install requests
 pip3 install requests
 
+# Install windguru-holfuy 
+git clone https://github.com/ciprian288/Windguru-and-Holfuy-dasboard.git
 
-  # Run Weather
+  # Run windguru-holfuy
 # edit config.py with data for wind service and location
-python3 weather.py
+python3 wind.py
 
-####    To EXIT holfuy.py -- press Q    ####
+####    To EXIT wind.py -- press Q    ####
