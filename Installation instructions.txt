@@ -14,3 +14,5 @@ pip3 install requests
   # Run Weather
 # edit config.py with data for wind service and location
 python3 weather.py
+
+####    To EXIT holfuy.py -- press Q    ####
