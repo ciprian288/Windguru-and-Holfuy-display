@@ -165,12 +165,12 @@ class MyDisplay:
                 text_regular = (255, 182, 32)
                 icon = path.join(path.dirname(__file__), 'icons/purple/{}/{}.png'.format(icon_wind_size, self.deg_to_compass(wind_dir)))
 
-            text = ("{} nd").format(wind_speed)
+            text = ("{} knt").format(wind_speed)
             text_render = regular_font.render(text, True, text_regular)
             text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.18))
             self.screen.blit(text_render, text_rect)
 
-            text = ("{} nd").format(wind_gust)
+            text = ("{} knt").format(wind_gust)
             text_render = regular_font.render(text, True, text_regular)
             text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.37))
             self.screen.blit(text_render, text_rect)
