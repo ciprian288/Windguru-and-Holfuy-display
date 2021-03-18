@@ -161,7 +161,7 @@ class MyDisplay:
                 text_regular = (255, 102, 0)
                 icon = path.join(path.dirname(__file__), 'icons/brown/{}/{}.png'.format(icon_wind_size, self.deg_to_compass(wind_dir)))
             if 30.1 < wind_speed <= 500:
-                text_regular = (255, 182, 32)
+                text_regular = (255, 26, 140)
                 icon = path.join(path.dirname(__file__), 'icons/purple/{}/{}.png'.format(icon_wind_size, self.deg_to_compass(wind_dir)))
 
             text = ("{} knt").format(wind_speed)
@@ -204,7 +204,7 @@ class MyDisplay:
                 text_regular = (255, 102, 0)
                 icon = path.join(path.dirname(__file__), 'icons/brown/{}/{}.png'.format(icon_wind_size, self.deg_to_compass(wind_dir)))
             if 30.1 < wind_speed <= 500:
-                text_regular = (255, 182, 32)
+                text_regular = (255, 26, 140)
                 icon = path.join(path.dirname(__file__), 'icons/purple/{}/{}.png'.format(icon_wind_size, self.deg_to_compass(wind_dir)))
 
             text = ("{} knt").format(wind_speed)
