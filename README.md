@@ -1,4 +1,4 @@
-# Windguru-and-Holfuy-dashboard
+# Windguru-and-Holfuy-display
 
 Display local Windguru or Holfuy data on Raspberry Pi
 
