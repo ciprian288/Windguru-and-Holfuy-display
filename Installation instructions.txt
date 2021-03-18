@@ -1,8 +1,8 @@
 Installation instructions
 
 # Install Python 3
-# sudo apt-get install python3
-# sudo apt-get install python3-pip
+ sudo apt-get install python3
+ sudo apt-get install python3-pip
 
 # Install Pygame
 pip3 install pygame
@@ -11,5 +11,6 @@ pip3 install pygame
 pip3 install requests
 
 
-# Run Weather
+  # Run Weather
+# edit config.py with data for wind service and location
 python3 weather.py
