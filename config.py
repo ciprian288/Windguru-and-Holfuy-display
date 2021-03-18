@@ -13,7 +13,7 @@ ID_STATION = '2708'
 # for wind data minimum 120s
 DS_CHECK_INTERVAL = 120 # 2 minutes
 
-# The location you want to check
+# Your location 
 LAT = 43.813049
 LON = 28.572492
 
