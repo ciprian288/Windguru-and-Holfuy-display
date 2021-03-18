@@ -1,2 +1,2 @@
 # Windguru-and-Holfuy-dasboard
-Windguru and Holfuy dasboard in python
+Display Windguru and Holfuy on Raspberry Pi
