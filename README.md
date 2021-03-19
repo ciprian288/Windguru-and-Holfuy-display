@@ -28,9 +28,9 @@ $ git clone https://github.com/ciprian288/Windguru-and-Holfuy-dasboard.git
 
   # Run windguru-holfuy
 - edit config.py with data for wind service and location
-- 
+
 $ python3 wind.py
 
-####    To EXIT wind.py -- press Q    ####
+#    To EXIT wind.py -- press Q    ####
 
 © 2021 GitHub, Inc.
