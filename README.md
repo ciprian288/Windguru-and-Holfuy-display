@@ -11,9 +11,9 @@ Display local Windguru or Holfuy data on Raspberry Pi.
 Installation instructions
 
 # Install Python 3
- sudo apt-get install python3
- sudo apt-get install python3-pip
- sudo apt-get install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libjpeg-dev libportmidi-dev libtimedate-perl
+sudo apt-get install python3
+sudo apt-get install python3-pip
+sudo apt-get install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libjpeg-dev libportmidi-dev libtimedate-perl
 
 # Install Pygame
 pip3 install pygame
