@@ -12,7 +12,7 @@ Installation instructions
 
 # Install Python 3
 $ sudo apt-get install python3
-$ sudo apt-get install python3-pip
+$ sudo apt-get install python3-pip#
 $ sudo apt-get install libsdl1.2-dev libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libjpeg-dev libportmidi-dev libtimedate-perl
 
 # Install Pygame
@@ -25,7 +25,7 @@ $ pip3 install requests
 $ git clone https://github.com/ciprian288/Windguru-and-Holfuy-dasboard.git
 
   # Run windguru-holfuy
-# edit config.py with data for wind service and location
+- edit config.py with data for wind service and location
 $ python3 wind.py
 
 ####    To EXIT wind.py -- press Q    ####
