@@ -1,4 +1,4 @@
-# Windguru-and-Holfuy-display
+# Windguru and Holfuy display
 
 A PyGame-based wind data display.
 
