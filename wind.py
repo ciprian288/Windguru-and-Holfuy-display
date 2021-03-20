@@ -166,25 +166,25 @@ class MyDisplay:
 
             text = ("{} knt").format(wind_speed)
             text_render = regular_font.render(text, True, text_regular)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.18))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.18))
             self.screen.blit(text_render, text_rect)
 
             text = ("{} knt").format(wind_gust)
             text_render = regular_font.render(text, True, text_regular)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.37))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.37))
             self.screen.blit(text_render, text_rect)
             
             text = "%s° " % wind_dir
             text_render = small_font.render(text, True, text_color)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.58))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.58))
             self.screen.blit(text_render, text_rect)
         
             icon_load = pygame.image.load(icon).convert_alpha()
             self.screen.blit(icon_load, (self.xmax * 0.04, self.ymax * 0.08))
         
-            kite_path = path.join(path.dirname(__file__), 'icons/logo/{}/windguru.png'.format(icon_wind_size))
-            kite = pygame.image.load(kite_path)
-            self.screen.blit(kite, (self.xmax * 0.6, self.ymax * 0.72))
+            logo = path.join(path.dirname(__file__), 'icons/logo/{}/windguru.png'.format(icon_wind_size))
+            logo_load = pygame.image.load(logo)
+            self.screen.blit(logo_load, (self.xmax * 0.6, self.ymax * 0.72))
 
         else:
             wind_speed = self.wind['wind']['speed']
@@ -209,25 +209,25 @@ class MyDisplay:
 
             text = ("{} knt").format(wind_speed)
             text_render = regular_font.render(text, True, text_regular)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.18))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.18))
             self.screen.blit(text_render, text_rect)
 
             text = ("{} knt").format(wind_gust)
             text_render = regular_font.render(text, True, text_regular)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.37))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.37))
             self.screen.blit(text_render, text_rect)
             
             text = "%s° " % wind_dir
             text_render = small_font.render(text, True, text_color)
-            text_rect = text_render.get_rect(center=(self.xmax * 0.8, self.ymax * 0.58))
+            text_rect = text_render.get_rect(center=(self.xmax * 0.75, self.ymax * 0.58))
             self.screen.blit(text_render, text_rect)
         
             icon_load = pygame.image.load(icon).convert_alpha()
             self.screen.blit(icon_load, (self.xmax * 0.04, self.ymax * 0.08))
         
-            kite_path = path.join(path.dirname(__file__), 'icons/logo/{}/holfuy.png'.format(icon_wind_size))
-            kite = pygame.image.load(kite_path)
-            self.screen.blit(kite, (self.xmax * 0.6, self.ymax * 0.72))
+            logo = path.join(path.dirname(__file__), 'icons/logo/{}/holfuy.png'.format(icon_wind_size))
+            logo_load = pygame.image.load(logo)
+            self.screen.blit(logo_load, (self.xmax * 0.6, self.ymax * 0.72))
 
         # Update the display
         pygame.display.update()     
