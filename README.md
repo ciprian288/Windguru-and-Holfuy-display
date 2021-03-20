@@ -24,7 +24,7 @@ $ pip3 install pygame
 $ pip3 install requests
 
 # Install windguru-holfuy 
-$ git clone https://github.com/ciprian288/Windguru-and-Holfuy-dasboard.git
+$ git clone https://github.com/ciprian288/Windguru-and-Holfuy-display.git
 
   # Run windguru-holfuy
 - edit config.py with data for wind service and location
