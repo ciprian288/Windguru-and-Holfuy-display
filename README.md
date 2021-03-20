@@ -29,6 +29,7 @@ $ git clone https://github.com/ciprian288/Windguru-and-Holfuy-display.git
   # Run windguru-holfuy
 - edit config.py with data for wind service and location
 
+$ cd Windguru-and-Holfuy-display
 $ python3 wind.py
 
 #    To EXIT wind.py -- press Q    ####
