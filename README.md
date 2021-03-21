@@ -33,7 +33,8 @@ Installation instructions
    git clone https://github.com/ciprian288/Windguru-and-Holfuy-display.git 
    ```
   # Run windguru-holfuy
-- edit config.py with data for wind service and location
+- edit config.py with data for wind service and location and:
+   
    ```sh
    cd Windguru-and-Holfuy-display
    ```
