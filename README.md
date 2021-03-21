@@ -7,15 +7,6 @@ Display local Windguru or Holfuy data on Raspberry Pi.
 |![screenshot1](screenshots/screenshot1.png)|![screenshot2](screenshots/screenshot2.png)|![screenshot3](screenshots/screenshot3.png)|
 | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
 |![screenshot4](screenshots/screenshot4.png)|![screenshot5](screenshots/screenshot5.png)|                                           |    
-
-* The buld of this project originated with the code written by Gene Liverman and
-  published at
-  https://piweatherrock.technicalissues.us .
-  
-* Right now all data is pulled from:
-     - OpenWetherMap  https://openweathermap.org/api/one-call-api
-     - Windguru https://www.windguru.cz
-     - Holfuy https://api.holfuy.com/
   
 Installation instructions
 
